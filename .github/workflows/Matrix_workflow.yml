@@ -1,5 +1,9 @@
 name: Matrix_WorkFlow_DEMO_WF
-on: [push,workflow_dispatch]
+on:
+  push:
+    paths-ignore:
+      - '.github/workflows/*'    
+    workflow_dispatch:
 jobs:
   build:
     continue-on-error: true
