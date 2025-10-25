@@ -1,4 +1,4 @@
-name: Continue_On_Error_WF
+name: Continue_On_Error_runs_report_job_on_error_WF
 on:
   push:
     branches:
